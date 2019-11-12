@@ -1,0 +1,412 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+font{
+	font-family: Microsoft YaHei UI;
+}
+
+.header{
+	margin: 0px auto;
+	width: 100%;
+	overflow: hidden;
+	background-color: #07cbc9;
+}
+
+.header .logo{
+	float:left;
+	position: relative;
+	height:48px;
+	width: 260px;
+}
+.header .menu{
+	float:left;
+	margin-left:35%;
+	position: relative;
+
+}
+
+.header .menu ul{
+	list-style: none;
+	position: absolute;
+	margin-left:100px;
+	width:1000px;
+}
+
+.header .menu ul li{
+	width:60px;
+	float:left;
+	margin: 0 20px 20px 0;
+	text-align: center;
+}
+
+
+.header .menu ul li a{
+	text-decoration:none;
+	color: #ffffff;
+	font-family: Microsoft YaHei UI;
+	font-weight: bolder;
+	line-height: 48px;
+}
+
+.header .menu ul li a:hover{
+	background-color: #000000;
+}
+
+.banner{
+	margin: 0px auto;
+	height:800px;
+	width:100%;
+	overflow: hidden;
+}
+
+
+.banner .cover{
+	width: 100%;
+	height:800px;
+	float:left;
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	/*设置背景色且透明*/
+	background-color: #000000;
+	opacity: 0.4;
+}
+
+.banner .cover .userInfo{
+	display: block;
+	float: left;
+	position: absolute;
+	width: 30%;
+	height: 60%;
+	overflow: hidden;
+	/*通过设置外边距，实现居中显示*/
+	margin-left:35%;
+	margin-right:35%;
+	margin-top:10%;
+	line-height: 800px;
+	background-color: #000000;
+}
+
+.banner img{
+	position: absolute;
+	float:left;
+	height:800px;
+	width: 100%;
+}
+
+
+.banner .cover .userInfo input[type="text"]{
+	width: 100%;
+	height:10%;
+	margin-bottom: 8%;
+	background-color: #000000;
+	color:#ffffff;
+	padding-left: 5px;
+}
+
+.banner .cover .userInfo input[type="submit"]{
+	width:30%;
+	height:10%;
+	margin-left:35%;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.banner .cover .userInfo input[id="comment"]{
+	height:24%;
+
+}
+
+.banner .cover .userInfo input:hover {
+	border-color: #07cbc9;
+}
+
+.banner .cover .userInfo #submit:hover{
+	border-style: none;
+	background-color: #07cbc9;
+	color:#000000;
+}
+
+.about{
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.about>div{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size:50px;
+	font-family: Microsoft YaHei UI;
+	text-align: center;
+}
+
+.about .aboutTitle p{
+	width: 32%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.about .aboutTitle hr{
+	width: 4%;
+	color: #07cbc9;
+	margin:8px auto;
+}
+
+
+.about .aboutDetail{
+	width: 100%;
+	margin-top: 0px auto;
+	overflow: hidden;
+}
+
+.aboutDetail #detail1{
+	width:24%;
+	position: absolute;
+	float: left;
+	margin-left: 18%;
+	text-align: center;
+}
+
+.aboutDetail #detail1>p{
+	font-weight: normal;
+	font-size: 16px;
+	
+}
+.aboutDetail #detail1 .aboutContent{
+	background-color: rgba(255,255,255,0.4);
+	border:2px solid gray;
+	margin-left:10%;
+	margin-top:5%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.aboutContent>p{
+	font-family: Microsoft YaHei UI;
+	font-size: 16px;
+	text-align: left;
+	margin:5% 5% 5% 5%;
+}
+
+.aboutDetail .aboutContent #exploreBtn{
+	background-color: #000000;
+	font-size: 16px;
+	color: #ffffff;
+	border-style: none;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 4%;
+}
+
+.aboutDetail .aboutContent #exploreBtn:hover{
+	opacity: 0.4;
+	border: 1px solid black;
+
+}
+
+.aboutDetail #detail3{
+	width: 12%;
+	position: absolute;
+	float: right;
+	right:0px;
+	margin-top:2%;
+	margin-right:18%; 
+}
+
+.aboutDetail #detail3 ul{
+	list-style: none;
+	font-family: Microsoft YaHei UI;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.aboutDetail #detail3 ul li{
+	border: 1px solid #07cbc9;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	padding: 5% 5% 5% 5%;
+}
+.aboutDetail #detail2{
+	width: 32%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.aboutDetail #detail2 img{
+	width: 100%;
+}
+
+.aboutDetail #detail3 hr{
+	width: 8%;
+	color: #07cbc9;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.aboutDetail #detail3 .normalText{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.aboutList{
+	width: 100%;
+	overflow: hidden;
+}
+
+.aboutList .aboutListSubDiv{
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	height:auto;
+	/*height:337.25px;*/
+ 	background-color: #07cbc9;
+}
+
+
+.aboutList .aboutListSubDiv img{
+	width: 100%;
+}
+
+.aboutList .imgContentDiv{
+	width:100%;
+	height:0;
+	padding-bottom: 100%;
+}
+
+.aboutList .aboutListSubDiv .imgContentDiv p{
+	line-height: 1.2em;
+	padding: 8% 10% 2% 10%;
+	color:#ffffff;
+}
+
+
+.aboutList .aboutListSubDiv .imgContentDiv input{
+	color: #ffffff;
+	background-color: #000000;
+	border:none;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 12%;
+	margin-top: 5%;
+}
+
+.aboutList .aboutListSubDiv .imgContentDiv input:hover{
+	border:1px solid black;
+	opacity: 0.4;
+	background-color: #07cbc9;
+	color:#ffffff;
+}
+
+.aboutList .aboutListSubDiv .imgContentDiv .title{
+	font-size: 20px;
+	font-family: Microsoft YaHei UI;
+	font-weight: bold;
+}
+
+.aboutList .aboutListSubDiv .imgContentDiv p[class="subTitle"]{
+	font-size: 14px;
+	font-family: Microsoft YaHei UI;	
+}
+
+.aboutList .aboutListSubDiv .imgContentDiv p[class="content"]{
+	font-size: 12px;
+	font-family: Microsoft YaHei UI;
+
+}
+
+.gallery{
+	width: 70%;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.gallery .galleryText{
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.gallery .galleryText hr{
+	width: 8%;
+	color: #07cbc9;
+	margin:8px auto;
+}
+.gallery .galleryText #galleryText{
+	font-family: Microsoft YaHei UI;
+	line-height: 1.3em;
+}
+
+
+.gallery .galleryList ul{
+	width: 100%;
+	margin:0px auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+.gallery .galleryList ul li{
+	width: 31%;
+	float:left;
+	margin-right: 3.5%;
+	margin-top:20px;
+	overflow: hidden;
+}
+
+.gallery .galleryList #right1,#right2{
+	margin-right:0px;
+}
+
+
+.gallery .galleryList img{
+	width: 100%;
+	display: block;
+}
+
+
+.gallery .galleryList p{
+	background-color: #000000;
+	color: #ffffff;
+	height:40px;
+	font-size: 12px;
+	font-family: Microsoft YaHei UI;
+	line-height: 40px;
+	padding-left: 20px;
+
+}
+
+
+.footer{
+	margin-top:50px;
+	height:50px;
+	width: 100%;
+	background-color: #07cbc9;
+	text-align: center;
+}
+
+.footer p{
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
